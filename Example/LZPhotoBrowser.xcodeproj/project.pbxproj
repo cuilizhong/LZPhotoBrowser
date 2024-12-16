@@ -38,8 +38,8 @@
 
 /* Begin PBXFileReference section */
 		0CD72D78833595A80CB2FE1A /* Pods-LZPhotoBrowser_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LZPhotoBrowser_Tests.debug.xcconfig"; path = "Target Support Files/Pods-LZPhotoBrowser_Tests/Pods-LZPhotoBrowser_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		34001BA7152605300246DE27 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		418A21C054273ABD84CCE889 /* LZPhotoBrowser.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = LZPhotoBrowser.podspec; path = ../LZPhotoBrowser.podspec; sourceTree = "<group>"; };
+		34001BA7152605300246DE27 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		418A21C054273ABD84CCE889 /* LZPhotoBrowser.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LZPhotoBrowser.podspec; path = ../LZPhotoBrowser.podspec; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* LZPhotoBrowser_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LZPhotoBrowser_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -64,7 +64,7 @@
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		87C2CD6212537647E1CD5A32 /* Pods-LZPhotoBrowser_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LZPhotoBrowser_Tests.release.xcconfig"; path = "Target Support Files/Pods-LZPhotoBrowser_Tests/Pods-LZPhotoBrowser_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		D5375382225527B9BAC533AA /* Pods_LZPhotoBrowser_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LZPhotoBrowser_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		DA0184BB5985030EBB6D2ABC /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		DA0184BB5985030EBB6D2ABC /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		E6C097CAB56C70BB907C818F /* Pods_LZPhotoBrowser_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LZPhotoBrowser_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E6F1AC334C8A60576EE34EC8 /* Pods-LZPhotoBrowser_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LZPhotoBrowser_Example.release.xcconfig"; path = "Target Support Files/Pods-LZPhotoBrowser_Example/Pods-LZPhotoBrowser_Example.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -193,7 +193,6 @@
 				0CD72D78833595A80CB2FE1A /* Pods-LZPhotoBrowser_Tests.debug.xcconfig */,
 				87C2CD6212537647E1CD5A32 /* Pods-LZPhotoBrowser_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -259,6 +258,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -518,6 +518,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "LZPhotoBrowser/LZPhotoBrowser-Prefix.pch";
 				INFOPLIST_FILE = "LZPhotoBrowser/LZPhotoBrowser-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -534,6 +535,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "LZPhotoBrowser/LZPhotoBrowser-Prefix.pch";
 				INFOPLIST_FILE = "LZPhotoBrowser/LZPhotoBrowser-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
