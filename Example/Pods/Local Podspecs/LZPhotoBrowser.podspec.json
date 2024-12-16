@@ -1,0 +1,29 @@
+{
+  "name": "LZPhotoBrowser",
+  "version": "0.1.0",
+  "summary": "A short description of LZPhotoBrowser.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/Cui lizhong/LZPhotoBrowser",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Cui lizhong": "cui_li_zhong@163.com"
+  },
+  "source": {
+    "git": "https://github.com/Cui lizhong/LZPhotoBrowser.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "10.0"
+  },
+  "source_files": "LZPhotoBrowser/Classes/**/*",
+  "frameworks": "UIKit",
+  "dependencies": {
+    "SDWebImage": [
+      "~> 5.0.0"
+    ]
+  },
+  "requires_arc": true
+}
